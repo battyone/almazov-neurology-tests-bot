@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions>
+  <question>
+    <text>Основным медиатором тормозного действия является:</text>
+    <answers>
+      <answer>ацетилхолин</answer>
+      <answer>норадреналин</answer>
+      <answer right="true">ГАМК</answer>
+      <answer>дофамин</answer>
+    </answers>
+  </question>
+  <question>
+    <text>При поражении отводящего нерва возникает паралич глазодвигательной мышцы:</text>
+    <answers>
+      <answer>верхней прямой</answer>
+      <answer>межжелудочковая перегородка</answer>
+      <answer>верхней косой</answer>
+      <answer right="true">наружной прямой</answer>
+    </answers>
+  </question>
+  <question>
+    <text>При центральном параличе наблюдается:</text>
+    <answers>
+      <answer>нарушение чувствительности по полиневритическому типу</answer>
+      <answer>нарушения электровозбудимости нервов и мышц</answer>
+      <answer right="true">повышение сухожильных рефлексов</answer>
+      <answer>атрофия мышц</answer>
+    </answers>
+  </question>
+</questions>

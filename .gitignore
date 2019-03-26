@@ -1,0 +1,5 @@
+*.log
+.env
+config/database.yml
+data/questions.txt
+data/questions.xml

@@ -26,14 +26,11 @@ $ bundle install
 $ cp data/database.yml.example config/database.yml
 ```
 
-3. Setup XML or Plain text file with tests if you need.
+3. Setup Plain text file with tests and format it according to the sample if you need.
 
 ```bash
 $ cp data/questions.txt.example data/questions.txt
-$ cp data/questions.xml.example data/questions.xml
 ```
-
-You have to format them according to the samples.
 
 4. Setup Telegram bot token (use [@botfather](https://telegram.me/botfather) to get it) and if you need URL where you store test texts.
 
@@ -41,12 +38,11 @@ You have to format them according to the samples.
 $ cp .env.example .env
 ```
 
-5. In `models/test.rb` leave only one uncommented line of three as you need.
+5. In `models/test.rb` leave only one uncommented line of these lines as you need.
 
 ```rb
-#self.questions = Parser.questions_from_plain
-self.questions = Parser.questions_from_remote_plain
-# self.questions = Parser.questions_from_xml
+# questions = Parser.questions_from_plain(questions_qty_wants)
+questions = Parser.questions_from_remote_plain(questions_qty_wants)
 ```
 
 6. Create and migrate your database.
@@ -63,7 +59,7 @@ $ bin/bot
 
 ### TODO
 
-* Ask how many questions the user wants
+* Improve reply duplicates processing
 * Make it possible to leave reviews
 
 ### License
